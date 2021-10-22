@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="jquery-2.1.4.js"></script>
+	<title>To do list!!</title>
+	<link rel="icon" href="favicon/favicon.ico"/>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+  <body>
+
+    <header>
+      <h1>TO DO LIST</h1>
+      <form id="new-task-form">
+        <input
+          type="text"
+          name="new-task-input"
+          id="new-task-input"
+          placeholder="Add new to do"
+        />
+        <input type="submit" id="new-task-submit" value="Add task" />
+      </form>
+    </header>
+    <main>
+      <section class="task-list">
+        <h2>Tasks</h2>
+
+        <div id="tasks">
+          <!-- <div class="task">
+					<div class="content">
+						<input 
+							type="text" 
+							class="text" 
+							value="A new task"
+							readonly>
+					</div>
+					<div class="actions">
+						<button class="edit">Edit</button>
+						<button class="delete">Delete</button>
+					</div>
+				</div> -->
+        </div>
+      </section>
+	  
+      <footer>
+		
+        <ul class="footerIcon">
+          <li><img src="images/html5-icon.svg"></img></li>
+          <li><img src="images/css3-icon.svg"></img></li>
+          <li><img src="images/js-icon.svg"></img></li>
+        </ul>
+		<label class="power">Powered by</label>
+      </footer>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
